@@ -3,32 +3,25 @@
 
   const steps = [
     {
-      id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      id: "foundation",
+      title: "Build Your Foundation",
+      text: "Self-discovery is the starting point of meaningful career change. Through reflection and structured exercises, we help you uncover your natural talents, core values, and what truly energizes you. This foundation becomes your compass for all future decisions.",
+      tags: ["Talent Discovery", "Values Clarification", "Self-Reflection", "Insights Discovery Profile", "Strengths Assessment", "Career History Analysis"],
       graphic: "lines"
     },
     {
-      id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      id: "opportunities",
+      title: "Explore Opportunities",
+      text: "With clarity about who you are, we generate and test realistic career possibilities. This phase is about opening your mind to new directions while staying grounded in what's achievable. We help you see opportunities you might have overlooked.",
+      tags: ["Idea Generation", "Market Exploration", "Reality Testing", "Networking Strategy", "Career Options Analysis", "Possibility Mapping"],
       graphic: "curve"
     },
     {
-      id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      id: "realization",
+      title: "Realize Your Path",
+      text: "Insight without action changes nothing. We help you choose your direction, create a concrete plan, and take the first steps. This phase is about commitment, practical steps, and building momentum toward your new career reality.",
+      tags: ["Decision Making", "Action Planning", "Goal Setting", "Implementation Support", "Accountability", "Progress Tracking"],
       graphic: "circle-top"
-    },
-    {
-      id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
-      graphic: "circle-waves"
     }
   ];
 
@@ -49,7 +42,7 @@
       },
       {
         root: null,
-        rootMargin: "-20% 0px -20% 0px", // Trigger when element is in the middle 60% of viewport
+        rootMargin: "-20% 0px -20% 0px",
         threshold: 0.5
       }
     );
@@ -63,7 +56,7 @@
   });
 </script>
 
-<section class="bg-[#1a1a40] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
+<section class="bg-[oklch(0.141_0.005_285.823)] text-white py-24 px-6 md:px-12 relative" bind:this={sectionRef}>
   <div class="max-w-screen-2xl mx-auto flex flex-col md:flex-row gap-12">
     
     <!-- Sticky Navigation -->
@@ -71,7 +64,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">Your Career Roadmap</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}
@@ -96,16 +89,10 @@
                 <svg width="200" height="100" viewBox="0 0 200 100" class="opacity-50">
                     <path d="M20 80 Q 100 0 180 80" fill="none" stroke="black" stroke-width="1"/>
                 </svg>
-             {:else if step.graphic === 'circle-top'}
+             {:else}
                 <svg width="200" height="100" viewBox="0 0 200 100" class="opacity-50">
                     <circle cx="100" cy="100" r="60" fill="none" stroke="black" stroke-width="1"/>
                     <circle cx="100" cy="100" r="40" fill="none" stroke="black" stroke-width="1"/>
-                </svg>
-             {:else}
-                <svg width="200" height="100" viewBox="0 0 200 100" class="opacity-50">
-                    <ellipse cx="100" cy="50" rx="80" ry="20" fill="none" stroke="black" stroke-width="1"/>
-                    <ellipse cx="100" cy="50" rx="60" ry="15" fill="none" stroke="black" stroke-width="1"/>
-                    <ellipse cx="100" cy="50" rx="40" ry="10" fill="none" stroke="black" stroke-width="1"/>
                 </svg>
              {/if}
           </div>

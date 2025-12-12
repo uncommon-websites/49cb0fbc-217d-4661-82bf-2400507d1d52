@@ -1,24 +1,24 @@
 <script lang="ts">
   const stats = [
     {
-      label: "30+ People",
-      desc: "You're a small, but mighty team of curious problem-solvers and explorers. With a versatile, Swiss-knife mentality, we thrive on tackling diverse challenges. Our core team is tight-knit, yet we seamlessly tap into a wider network of experts when needed. Here, theory meets practice, and together, we get things done.",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+      label: "25+ Years Experience",
+      desc: "Judith Manssen brings over 25 years of expertise in human development, combining backgrounds as a creative therapist, business economist, and reintegration consultant. As a Noloc certified register career coach and Insights Discovery practitioner, she has witnessed firsthand the cost of underutilized talent and is driven to help professionals unlock their potential.",
+      img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
     },
     {
-      label: "14+ Awards",
-      desc: "Our work speaks for itself—recognized internationally, we've already earned some awards. These accolades reflect the passion and innovation we pour into every project, pushing boundaries and delivering results that make an impact.",
-      img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200"
+      label: "Insights Discovery Certified",
+      desc: "We're certified practitioners of the Insights Discovery personality profiling system, a powerful tool that helps individuals understand their natural working style, communication preferences, and unique strengths. This methodology forms the foundation of our talent discovery approach.",
+      img: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=200"
     },
     {
-      label: "CGN, BLN, Remote",
-      desc: "Headquartered in Cologne, with an expanding team in Berlin, we also embrace remote work. Our colleagues span across cities like Barcelona, Stuttgart, Munich, and more, bringing a mix of perspectives and expertise to everything we do. Whether in the office or working remotely, we stay connected and collaborative.",
-      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=200"
+      label: "10+ Major Clients",
+      desc: "Trusted by leading Dutch organizations including Waternet, Hoogheemraadschap Delfland, Kwik Fit, Mercedes Benz Global Training Nederland, HAN, and more. We specialize in working with organizations of 50 to 1,500 employees, delivering measurable talent development outcomes.",
+      img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=200"
     },
     {
-      label: "B-Corp",
-      desc: "We've officially joined the ranks of B-Corp certified companies. This means we meet the highest standards of social and environmental performance, accountability, and transparency. We're proud to use business as a force for good, ensuring our impact extends beyond just profit.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B_Corp_Logo.svg/1200px-B_Corp_Logo.svg.png" // Placeholder
+      label: "Flexible Delivery",
+      desc: "We meet you where you are with versatile formats: 1-on-1 coaching, online programs, in-company training, hybrid solutions, and e-learning. Our approach emphasizes learning as a continuous process rather than one-off events, combining training, coaching, and strategic advice for lasting impact.",
+      img: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=200"
     }
   ];
 </script>
@@ -26,7 +26,7 @@
 <section class="py-24 px-6 md:px-12 bg-white border-t border-gray-100">
   <div class="mb-16">
     <p class="text-gray-500 max-w-xl">
-      Curious about who we are? Here's a snapshot of the team, our achievements, and the milestones we're proud of.
+      Built on decades of experience and proven methodology, MPMC helps mid-career professionals transform their careers through structured talent discovery.
     </p>
   </div>
 
